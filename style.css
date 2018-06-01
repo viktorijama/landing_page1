@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+  height: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 15px;
+}
+.logo {
+  padding-left: 0px;
+}
+.header-phone {
+  padding-left: 150px;
+  font-size: 25px;
+}
+.home-page-back {
+    background-image: url(/img/euro_home.jpg);
+}
+.home-page {
+  min-height:643px;
+}
+form {
+  padding-top: 55px;
+  color: white;
+  background: url(/img/form_backgrund.png) repeat;
+}
+h1 {
+  font-size: 45px;
+  margin-bottom: 35px;
+  margin-left: 30px;
+}
+.form-text {
+  font-size: 25px;
+  background: url(/img/fonaslight.png) repeat;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+  width: 80%;
+}
+label {
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+input {
+  margin-left: 25px;
+  background-color: white;
+  opacity: 0.8;
+  width: 80%;
+  height: 40px;
+  border: none;
+}
+.btn {
+  width: 100px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  margin-left: 65%;
+}
+.main-back {
+  background-color:	#333333;
+}
+.main {
+  background-color: #262626;
+  color: white;
+  padding-top: 2%;
+  box-shadow: 30px 0 50px -15px black, -30px 0 50px -15px black;
+}
+article {
+  padding-top: 25px;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+li {
+  font-size: 16px;
+}
+.text-3 {
+  margin-bottom: 80px;
+}
+.foto-1 {
+  background-image: url(/img/service1.png);
+  margin-top: 2%;
+}
+.foto-2 {
+  background-image: url(/img/service2.png);
+}
+.foto-3 {
+  position: relative;
+}
+.img-3 {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.footer-back {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: 	#f2f2f2;
+  padding-top: 45px;
+  box-shadow: 30px 0 50px -15px #bfbfbf, -30px 0 50px -15px #bfbfbf;
+  height: 320px;
+}
+
+.left-side {
+  color: #510505;
+  font-size: 25px;
+  padding-left: 65px;
+  text-shadow: 0 0 5px white;
+  background: url(/img/footer_foto.png) no-repeat right ;
+}
+
+.left-side span {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.right-side {
+  padding-left: 45px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.footer-adresas {
+  font-size: 20px;
+  margin-bottom: 25px
+}
+
+.footer-contacts {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    padding-left: 50px;
+  }
+  .header-phone {
+    padding-left:0;
+    padding-right: 0;
+    font-size: 25px;
+    text-align: right;
+  }
+  form {
+    padding-top: 40px;
+  }
+  h1 {
+    font-size: 45px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+  }
+  .form-text {
+    font-size: 22px;
+    width: 90%;
+  }
+  input {
+    width: 90%;
+  }
+  .btn {
+    margin-bottom: 0;
+    margin-left: 73%;
+  }
+  .foto-1 {
+    background: url(/img/service1.png) no-repeat bottom right;
+  }
+  .text-3 {
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: 992px) {
+    .header-phone {
+      padding-left: 50px;
+      text-align: left;
+      font-style: 22px;
+    }
+    .foto-1 {
+      height: 300px;
+      background: url(/img/service1.png) no-repeat center;
+    }
+    .foto-2 {
+      height: 280px;
+    }
+    .text-2,
+    .text-3 {
+      margin-top: 20px;
+    }
+    .text-1,
+    .text-2,
+    .text-3 {
+      padding-left: 50px;
+    }
+    footer {
+      padding-top: 35px;
+      height: auto;
+      background: url(/img/service3.png) no-repeat top right;
+    }
+    .left-side {
+      padding-left: 70px;
+      background: none;
+      text-align: center;
+    }
+    .left-side span {
+      font-weight: bold;
+      font-size: 30px;
+    }
+    .right-side {
+      padding-left: 65px;
+      padding-top: 22px;
+    }
+    h3 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .footer-adresas {
+      font-size: 18px;
+      margin-bottom: 20px
+    }
+    .footer-contacts {
+      font-size: 20px;
+      margin-bottom: 23px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .form-text {
+      width: 92%;
+      font-size: 22px;
+    }
+    input {
+      width: 92%;
+    }
+    .btn {
+      margin-left: 75%;
+    }
+    .text-1 {
+      margin-bottom: 15px;
+    }
+    .foto-1 {
+      height: 280px;
+      margin-top: 0;
+    }
+    footer {
+      background: url(/img/service3.png) no-repeat top right;
+      padding-top: 15px;
+    }
+    .left-side {
+      color: #4d0000;
+      font-size: 25px;
+      padding-left: 25px;
+      text-shadow: 0px 1px white;
+      text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+  header {
+    height: 100px;
+  }
+  .logo {
+    padding-left: 25px;
+  }
+  .header-phone {
+    font-size: 20px;
+    padding-left: 25px;
+  }
+  .home-page {
+    min-height: 580px;
+  }
+  form {
+    padding-top: 30px;
+  }
+  h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+  }
+  .form-text {
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    width: 90%;
+  }
+  label {
+    margin-left: 15px;
+  }
+  input {
+    margin-left: 15px;
+    width: 90%;
+  }
+  .btn {
+    margin-bottom: 20px;
+    margin-left: 68%;
+  }
+  .text-1,
+  .text-2,
+  .text-3 {
+    padding-left: 15px;
+  }
+  .left-side {
+    padding-left: 30px;
+    text-align: center;
+  }
+  .footer-contacts {
+    margin-bottom: 15px;
+  }
+  footer {
+    background: url(/img/footer_foto.png) no-repeat top right;
+    padding-top: 15px;
+  }
+}
